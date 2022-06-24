@@ -1,0 +1,93 @@
+html{
+  display: flex;
+  align-items: center;
+  
+}
+
+body{
+  display:flex; 
+  flex-direction:column;
+  justify-content:center;
+  min-height:100vh;
+  align-items: center;
+  background-image: linear-gradient(#d8c8ee, #cc99c5);
+}
+
+.title{
+border-radius: 50%;
+  background-color: #d76593;
+
+}
+
+.title h1{
+ padding: 50px;
+  font-size: 40px;
+  border-radius: 50%;
+  background-color: #e9dad8;
+  border:solid 3px;
+}
+.content h3{
+  font-size: 30px;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  max-width: 65%;
+  font-size: 15px;
+  margin-bottom:20px;
+}
+
+img{
+height: 100%;
+width: 100%
+}
+.mcontainer{
+  display:flex;
+  width: 100%;
+  border:solid;
+}
+  .ccontainer{
+  background-color: #e7d9d9;
+  max-width: 500px;
+}
+
+.lcontainer{
+  border: solid;
+  background-color: #ecd5d5;
+}
+.lcontainer li{
+  font-size: 20px;
+}
+
+nav{
+  background-color: #e9d8d8;
+}
+nav a{
+  margin-right: 10px;
+  color: #151414;
+}
+
+nav a:hover{
+  background-color: #141414
+}
+  textarea{
+  height: 200px;
+  width: 300px;
+  background-color: #a877b6;
+  color:white;
+}
+
+button{
+  background-color: #61c346;
+}
+
+.circulo{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #ed0c39;
+}
